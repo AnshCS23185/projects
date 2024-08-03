@@ -1,0 +1,68 @@
+.navbar-collapse{
+    background-color: black;
+    color: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-toggler,
+.navbar-brand{
+    z-index: 1;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-brand{
+    font-size: 10cm;
+    letter-spacing: 2px;
+}
+.navbar-brand .navbar-link{
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+.navbar-collapse .nav-item:not(:last-child){
+    border-bottom: 1px solid grey;
+    padding: 0.2em 4em;
+}
+.navbar-collapse.show {
+    transition: all 0.5s;
+}
+.navbar-collapse .nav-link:hover
+.navbar-collapse .nav-link.active{
+    background-color: gold;
+}
+.sale{
+    background-image: url(/imae/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card:hover{
+    zoom: 1.2;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+footer{
+    background-color: grey;
+    color: white;
+}
+.btn{
+    --bs-btn-font-weight: 600;
+}
+.accordion-item{
+    --bs-accordion-btn-bg: grey; 
+    --bs-accordion-btn-focus-box-shadow: white;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-active-color: black;
+    --bs-accordion-bg: grey;
+    --bs-accordion-color: black;
+}
+.pagination-item{
+    --bs-pagination-color: grey;
+    --bs-pagination-active-color: grey;
+}
